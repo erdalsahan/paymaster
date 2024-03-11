@@ -1,4 +1,4 @@
-# Base paymaster
+# Base paymaster 
 
 This repo contains a verifying paymaster contract that can be used for gas subsidies for [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337) transactions.
 It contains a clone of the [eth-infinitism VerifyingPaymaster](https://github.com/eth-infinitism/account-abstraction/blob/73a676999999843f5086ee546e192cbef25c0c4a/contracts/samples/VerifyingPaymaster.sol) with an additional `receive()` function for simple deposits, as well as some additional changes made in response to an audit.
